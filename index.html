@@ -1,50 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gestao de Alunos</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>Gestão de Alunos</h1>
-            <p>Bem-vindo! Informe os dados necessários</p>
-        </header>
-        <main>
-            <form>
-                <label for="txtNome">Nome completo:</label>
-                <br>
-                <input
-                    type="text"
-                    id="Nome"
-                    name="nome_completo"
-                    placeholder="Digite seu nome completo"
-                >
-                <br>
-                <label for="numIdade">Idade:</label>
-                <br>
-                <input type="number" id="idade" placeholder="Informe a sua idade">
-                <br>
-                <label for="textTurma">Turma:</label>
-                <br>
-                <input type="text" id="turma" placeholder="Informe a sua Turma">
-                <br>
-                <label for="textNota1">Nota 1:</label>
-                <br>
-                <input type="number" id="nota1" placeholder="Informe sua nota 1">
-                <br>
-                <label for="textNota2">Nota 2:</label>
-                <br>
-                <input type="number" id="nota2" placeholder="Informe sua nota 2">
-                <br>
-            </form>
-            <button>Cadastrar</button>
-            <button>Excluir</button>
-        </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestao de Alunos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Gestão de Alunos</h1>
+      <p>Bem-vindo! Informe os dados necessários</p>
+    </header>
+    <main>
+      <form>
+        <label for="txtNome">Nome completo:</label>
+        <br />
+        <input
+          type="text"
+          id="Nome"
+          name="nome_completo"
+          placeholder="Digite seu nome completo"
+        />
+        <br />
+        <label for="numIdade">Idade:</label>
+        <br />
+        <input type="number" id="idade" placeholder="Informe a sua idade" />
+        <br />
+        <label for="textTurma">Turma:</label>
+        <br />
+        <input type="text" id="turma" placeholder="Informe a sua Turma" />
+        <br />
+        <label for="textNota1">Nota 1:</label>
+        <br />
+        <input type="number" id="nota1" placeholder="Informe sua nota 1" />
+        <br />
+        <label for="textNota2">Nota 2:</label>
+        <br />
+        <input type="number" id="nota2" placeholder="Informe sua nota 2" />
+        <br />
+      </form>
 
-        <script defer src="script.js">
-            
-        </script>
-    </body>
+      <button id="cadastro">Cadastrar</button>
+      <button id="excluir">Excluir</button>
+    </main>
+
+    <script defer src="script.js"></script>
+  </body>
 </html>
