@@ -9,11 +9,47 @@ body {
 }
 header {
   padding: 1rem;
-
   text-align: center;
 }
 
 main {
   margin: 0 10rem;
   padding: 10px;
+}
+
+.tabela-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid white;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 2px solid white;
+  text-align: center;
+}
+
+th {
+  background-color: #222;
+  color: white;
+}
+
+.aprovado {
+  background-color: #d4edda;
+}
+
+.reprovado {
+  background-color: #f8d7da;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
 }
